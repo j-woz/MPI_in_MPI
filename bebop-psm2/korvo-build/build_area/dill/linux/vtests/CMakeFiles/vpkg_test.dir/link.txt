@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/vpkg_test.dir/pkg_test.c.o  -o ../bin/vpkg_test ../lib/libdill.a 

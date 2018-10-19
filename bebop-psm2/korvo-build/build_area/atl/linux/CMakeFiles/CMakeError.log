@@ -1,0 +1,74 @@
+Determining if files windows.h exist failed with the following output:
+Change Dir: /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d76d3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d76d3.dir/build.make CMakeFiles/cmTC_d76d3.dir/build
+gmake[1]: Entering directory `/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d76d3.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fPIC  -fPIE   -o CMakeFiles/cmTC_d76d3.dir/CheckIncludeFiles.c.o   -c /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d76d3.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d76d3/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_82218/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_82218.dir/build.make CMakeFiles/cmTC_82218.dir/build
+gmake[1]: Entering directory `/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82218.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC  -fPIE   -o CMakeFiles/cmTC_82218.dir/CheckSymbolExists.c.o   -c /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_82218
+/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/intel-17.0.4/cmake-3.9.4-3tixtqtbd65zi6w4277fjte3z4vjpv4t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82218.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_82218.dir/CheckSymbolExists.c.o  -o cmTC_82218 
+CMakeFiles/cmTC_82218.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_82218] Error 1
+gmake[1]: Leaving directory `/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_82218/fast] Error 2
+
+File /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b7a45/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b7a45.dir/build.make CMakeFiles/cmTC_b7a45.dir/build
+gmake[1]: Entering directory `/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7a45.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_b7a45.dir/CheckFunctionExists.c.o   -c /blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/intel-17.0.4/cmake-3.9.4-3tixtqtbd65zi6w4277fjte3z4vjpv4t/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7a45
+/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/intel-17.0.4/cmake-3.9.4-3tixtqtbd65zi6w4277fjte3z4vjpv4t/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7a45.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b7a45.dir/CheckFunctionExists.c.o  -o cmTC_b7a45 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_b7a45] Error 1
+gmake[1]: Leaving directory `/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_b7a45/fast] Error 2
+
+

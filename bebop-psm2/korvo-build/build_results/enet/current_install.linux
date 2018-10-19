@@ -1,0 +1,72 @@
+
+Building project enet on bdw-0063, arch = linux
+
+-- The C compiler identification is GNU 4.8.5
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for getnameinfo
+-- Looking for getnameinfo - found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for inet_ntop
+-- Looking for inet_ntop - found
+-- Performing Test HAS_MSGHDR_FLAGS
+-- Performing Test HAS_MSGHDR_FLAGS - Success
+-- Performing Test HAS_SOCKLEN_T
+-- Performing Test HAS_SOCKLEN_T - Success
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILDNAME
+    CMAKE_CXX_FLAGS
+    PKG_CONFIG_EXECUTABLE
+    TARGET_CNL
+
+
+-- Build files have been written to: /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/linux
+Scanning dependencies of target enet
+[ 11%] Building C object CMakeFiles/enet.dir/callbacks.c.o
+[ 22%] Building C object CMakeFiles/enet.dir/compress.c.o
+[ 33%] Building C object CMakeFiles/enet.dir/host.c.o
+[ 44%] Building C object CMakeFiles/enet.dir/list.c.o
+[ 55%] Building C object CMakeFiles/enet.dir/packet.c.o
+[ 66%] Building C object CMakeFiles/enet.dir/peer.c.o
+[ 77%] Building C object CMakeFiles/enet.dir/protocol.c.o
+[ 88%] Building C object CMakeFiles/enet.dir/unix.c.o
+[100%] Linking C static library lib/libenet.a
+[100%] Built target enet
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/pkgconfig/enet.pc
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/enet-config
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/protocol.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/list.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/win32.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/callbacks.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/enet.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/time.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/utility.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/types.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/enet/unix.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libenet.a
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/enet/enet-config.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/enet/enet-config-version.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/enet/enet-targets.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/enet/enet-targets-debug.cmake

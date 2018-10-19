@@ -1,0 +1,72 @@
+building on host bdw-0063 at 9/11/2018 20:55:29
+
+    cd'ing to directory "/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area"
+    Making directory "dill"
+    cd'ing to directory "dill"
+Building project dill
+	with srcdir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/source and builddir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/linux
+Removing /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/linux/*
+    ==> git clone https://github.com/GTkorvo/dill.git /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/source 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/source ; git pull 1> /dev/null 2>&1 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/source ; git checkout 84f5763ae53aec2ae71854921d558f9732dd07fc 1> /dev/null 2>&1 
+doing mkdir on /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/dill
+    ==> cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=dill-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/source
+Doing cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=dill-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/source 1>>/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/dill/current_install.linux 2>&1
+ENABLE_TESTING NOT FOUND or testing disabled
+    ==> make all install
+    cd'ing to directory "/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area"
+    Making directory "atl"
+    cd'ing to directory "atl"
+Building project atl
+	with srcdir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/source and builddir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux
+Removing /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux/*
+    ==> git clone https://github.com/GTkorvo/atl.git /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/source 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/source ; git pull 1> /dev/null 2>&1 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/source ; git checkout 94637a701e9aa4a32f874ebfde92aeadff69cd34 1> /dev/null 2>&1 
+doing mkdir on /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/atl
+    ==> cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=atl-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/source
+Doing cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=atl-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/source 1>>/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/atl/current_install.linux 2>&1
+ENABLE_TESTING NOT FOUND or testing disabled
+    ==> make all install
+    cd'ing to directory "/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area"
+    Making directory "ffs"
+    cd'ing to directory "ffs"
+Building project ffs
+	with srcdir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source and builddir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/linux
+Removing /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/linux/*
+    ==> git clone https://github.com/GTkorvo/ffs.git /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source ; git pull 1> /dev/null 2>&1 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source ; git checkout c269085d3c9ceb462385084a8a7c8f0223057c14 1> /dev/null 2>&1 
+doing mkdir on /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/ffs
+    ==> cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=ffs-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source
+Doing cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=ffs-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source 1>>/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/ffs/current_install.linux 2>&1
+ENABLE_TESTING NOT FOUND or testing disabled
+    ==> make all install
+    cd'ing to directory "/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area"
+    Making directory "enet"
+    cd'ing to directory "enet"
+Building project enet
+	with srcdir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/source and builddir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/linux
+Removing /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/linux/*
+    ==> git clone https://github.com/GTkorvo/enet.git /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/source 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/source ; git pull 1> /dev/null 2>&1 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/source ; git checkout 197c41755876c902e8a842c9991fa3f0e5f91ae3 1> /dev/null 2>&1 
+doing mkdir on /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/enet
+    ==> cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=enet-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/source
+Doing cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=enet-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/enet/source 1>>/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/enet/current_install.linux 2>&1
+ENABLE_TESTING NOT FOUND or testing disabled
+    ==> make all install
+    cd'ing to directory "/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area"
+    Making directory "evpath"
+    cd'ing to directory "evpath"
+Building project evpath
+	with srcdir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/source and builddir=/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/linux
+Removing /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/linux/*
+    ==> git clone https://github.com/GTkorvo/evpath.git /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/source 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/source ; git pull 1> /dev/null 2>&1 
+    ==> cd /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/source ; git checkout 7dd76e8c6eac87fe8bb27111fe8430334d3eeaa3 1> /dev/null 2>&1 
+doing mkdir on /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/evpath
+    ==> cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=evpath-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/source
+Doing cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DTARGET_CNL=1 -DPKG_CONFIG_EXECUTABLE=IGNORE -DBUILDNAME=evpath-linux -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/evpath/source 1>>/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_results/evpath/current_install.linux 2>&1
+ENABLE_TESTING NOT FOUND or testing disabled
+    ==> make all install

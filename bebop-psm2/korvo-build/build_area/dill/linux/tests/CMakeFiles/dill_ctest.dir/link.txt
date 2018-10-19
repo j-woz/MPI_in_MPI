@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/dill_ctest.dir/ctest.c.o  -o ../bin/dill_ctest ../lib/libdill.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/compat_test.dir/compat_test.c.o CMakeFiles/compat_test.dir/test_funcs.c.o  -o ../../bin/compat_test ../../lib/libffs.a -lm -ldl /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libdill.a /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libatl.a 

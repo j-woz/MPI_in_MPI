@@ -1,0 +1,10 @@
+%macro = (
+        basic_size_list  => [ "size:24 vectors:1 msg_count:10",
+			      "size:102400 vectors:1 msg_count:3" ],
+        tiny_size_list  => [ "size:24 vectors:1 msg_count:10 "],
+	all_read_buffer_styles  => [ "take_receive_buffer:0", "take_receive_buffer:1" ],
+	all_write_buffer_styles  => [ "reuse_write_buffers:0", "reuse_write_buffers:1" ],
+      );
+$test_set{"sockets"} = "basic_size_list all_read_buffer_styles all_write_buffer_styles";
+$test_set{"enet"} = "basic_size_list all_read_buffer_styles all_write_buffer_styles";
+$test_set{"ib"} = "basic_size_list all_read_buffer_styles all_write_buffer_styles";

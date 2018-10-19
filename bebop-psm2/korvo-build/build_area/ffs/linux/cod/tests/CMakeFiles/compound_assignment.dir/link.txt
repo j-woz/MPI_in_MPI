@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/compound_assignment.dir/compound_assignment.c.o CMakeFiles/compound_assignment.dir/data_funcs.c.o  -o ../../bin/compound_assignment ../../lib/libffs.a /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libatl.a -lm -ldl /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libdill.a 

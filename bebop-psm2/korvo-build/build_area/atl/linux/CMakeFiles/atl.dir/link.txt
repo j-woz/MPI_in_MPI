@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libatl.a  CMakeFiles/atl.dir/atom.c.o CMakeFiles/atl.dir/attr.c.o CMakeFiles/atl.dir/lookup3.c.o CMakeFiles/atl.dir/tclHash.c.o
+/usr/bin/ranlib lib/libatl.a

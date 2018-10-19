@@ -1,0 +1,108 @@
+
+Building project atl on bdw-0063, arch = linux
+
+-- The C compiler identification is GNU 4.8.5
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of double
+-- Check size of double - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of short
+-- Check size of short - done
+-- Looking for include file malloc.h
+-- Looking for include file malloc.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file windows.h
+-- Looking for include file windows.h - not found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- 
+-- ----------------------------------------------------------------------------
+-- CMAKE_INSTALL_PREFIX = /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo
+-- CMAKE_BUILD_TYPE = Debug
+-- ATL_ATOM_SERVER_HOST = atomhost.cercs.gatech.edu
+-- ATL_LIBRARIES_ONLY = OFF
+-- BUILD_TESTING = ON
+-- Change a value with: cmake -D<Variable>=<Value>
+-- ----------------------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_FLAGS
+    PKG_CONFIG_EXECUTABLE
+    TARGET_CNL
+
+
+-- Build files have been written to: /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/atl/linux
+Scanning dependencies of target atl
+[  6%] Building C object CMakeFiles/atl.dir/atom.c.o
+[ 13%] Building C object CMakeFiles/atl.dir/attr.c.o
+[ 20%] Building C object CMakeFiles/atl.dir/lookup3.c.o
+[ 26%] Building C object CMakeFiles/atl.dir/tclHash.c.o
+[ 33%] Linking C static library lib/libatl.a
+[ 33%] Built target atl
+Scanning dependencies of target atom_check
+[ 40%] Building C object CMakeFiles/atom_check.dir/atom_check.c.o
+[ 46%] Linking C executable bin/atom_check
+[ 46%] Built target atom_check
+Scanning dependencies of target atom_test
+[ 53%] Building C object CMakeFiles/atom_test.dir/atom_test.c.o
+[ 60%] Linking C executable bin/atom_test
+[ 60%] Built target atom_test
+Scanning dependencies of target attr_test
+[ 66%] Building C object CMakeFiles/attr_test.dir/attr_test.c.o
+[ 73%] Linking C executable bin/attr_test
+[ 73%] Built target attr_test
+Scanning dependencies of target attr_dump
+[ 80%] Building C object CMakeFiles/attr_dump.dir/attr_dump.c.o
+[ 86%] Linking C executable bin/attr_dump
+[ 86%] Built target attr_dump
+Scanning dependencies of target atom_server
+[ 93%] Building C object CMakeFiles/atom_server.dir/atom_server.c.o
+[100%] Linking C executable bin/atom_server
+[100%] Built target atom_server
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/pkgconfig/atl.pc
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/atl-config
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/atl.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libatl.a
+-- Up-to-date: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/atl.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/atom_server
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/attr_dump
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/atl/atl-config.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/atl/atl-config-version.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/atl/atl-targets.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/atl/atl-targets-debug.cmake

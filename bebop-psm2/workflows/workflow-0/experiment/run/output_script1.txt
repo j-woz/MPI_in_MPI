@@ -1,0 +1,2 @@
+script1.sh (PMI_RANK = 1)
+script1.sh (PMI_RANK = 0)

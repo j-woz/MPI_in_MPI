@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/vt1.dir/t1.c.o  -o ../bin/vt1 ../lib/libdill.a 

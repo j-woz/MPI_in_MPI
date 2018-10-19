@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/get_set_test.dir/get_set_test.c.o CMakeFiles/get_set_test.dir/test_funcs.c.o  -o ../../bin/get_set_test ../../lib/libffs.a -lm -ldl /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libdill.a /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libatl.a 

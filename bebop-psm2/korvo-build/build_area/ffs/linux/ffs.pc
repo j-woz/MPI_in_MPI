@@ -1,0 +1,12 @@
+prefix=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: FFS
+Description: Middleware for data communication
+URL: https://github.com/GTkorvo/ffs.git
+Version: 1.6.0
+Requires.private: dill >= 2.4.0 atl >= 2.2.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -lffs
+Libs.private: -lm -ldl

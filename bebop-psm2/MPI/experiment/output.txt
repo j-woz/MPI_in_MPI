@@ -1,0 +1,8 @@
+Hello
+Hello
+hostname:  bdw-0465
+rank/size: 0/2
+hostname:  bdw-0465
+rank/size: 1/2
+Bye.
+Bye.

@@ -1,0 +1,149 @@
+
+Building project dill on bdw-0063, arch = linux
+
+-- The C compiler identification is GNU 4.8.5
+-- The CXX compiler identification is GNU 4.8.5
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void*
+-- Check size of void* - done
+-- Check size of long
+-- Check size of long - done
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file stdarg.h
+-- Looking for include file stdarg.h - found
+-- Looking for include file malloc.h
+-- Looking for include file malloc.h - found
+-- Looking for include file memory.h
+-- Looking for include file memory.h - found
+-- 
+-- -----------------------------------------------------------------------------
+-- CMAKE_INSTALL_PREFIX = /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo
+-- CMAKE_BUILD_TYPE = Debug
+-- DILL_ENABLE_DISASSEMBLY = OFF
+-- DILL_MULTI_TARGET = OFF
+-- BUILD_TESTING = ON
+-- Change a value with: cmake -D<Variable>=<Value>
+-- -----------------------------------------------------------------------------
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PKG_CONFIG_EXECUTABLE
+    TARGET_CNL
+
+
+-- Build files have been written to: /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/dill/linux
+[  2%] Generating dill_x86_64.c
+[  4%] Generating dill_virtual.c
+[  6%] Generating dill.h, dill.c
+Scanning dependencies of target dill
+[  8%] Building C object CMakeFiles/dill.dir/dill_util.c.o
+[ 10%] Building C object CMakeFiles/dill.dir/dill_pkg.c.o
+[ 12%] Building C object CMakeFiles/dill.dir/dill_cplus.c.o
+[ 14%] Building C object CMakeFiles/dill.dir/dill_virtual.c.o
+[ 17%] Building C object CMakeFiles/dill.dir/virtual.c.o
+[ 19%] Building C object CMakeFiles/dill.dir/dill.c.o
+[ 21%] Building C object CMakeFiles/dill.dir/vm.c.o
+[ 23%] Building C object CMakeFiles/dill.dir/dill_x86_64.c.o
+[ 25%] Building C object CMakeFiles/dill.dir/x86_64.c.o
+[ 27%] Building C object CMakeFiles/dill.dir/x86_64_rt.c.o
+[ 29%] Linking C static library lib/libdill.a
+[ 29%] Built target dill
+[ 31%] Generating regress.c
+Scanning dependencies of target dill_regress
+[ 34%] Building C object tests/CMakeFiles/dill_regress.dir/regress.c.o
+[ 36%] Linking C executable ../bin/dill_regress
+[ 36%] Built target dill_regress
+Scanning dependencies of target dill_ctest
+[ 38%] Building C object tests/CMakeFiles/dill_ctest.dir/ctest.c.o
+[ 40%] Linking C executable ../bin/dill_ctest
+[ 40%] Built target dill_ctest
+Scanning dependencies of target stest
+[ 42%] Building C object tests/CMakeFiles/stest.dir/stest.c.o
+[ 44%] Linking C executable ../bin/stest
+[ 44%] Built target stest
+[ 46%] Generating call-test.c
+Scanning dependencies of target dill_call-test
+[ 48%] Building C object tests/CMakeFiles/dill_call-test.dir/call-test.c.o
+[ 51%] Linking C executable ../bin/dill_call-test
+[ 51%] Built target dill_call-test
+Scanning dependencies of target dill_t1
+[ 53%] Building C object tests/CMakeFiles/dill_t1.dir/t1.c.o
+[ 55%] Linking C executable ../bin/dill_t1
+[ 55%] Built target dill_t1
+Scanning dependencies of target dill_pkg_test
+[ 57%] Building C object tests/CMakeFiles/dill_pkg_test.dir/pkg_test.c.o
+[ 59%] Linking C executable ../bin/dill_pkg_test
+[ 59%] Built target dill_pkg_test
+Scanning dependencies of target cplus
+[ 61%] Building CXX object tests/CMakeFiles/cplus.dir/cplus.cc.o
+[ 63%] Linking CXX executable ../bin/cplus
+[ 63%] Built target cplus
+Scanning dependencies of target vbasic_call
+[ 65%] Building C object vtests/CMakeFiles/vbasic_call.dir/basic_call.c.o
+[ 68%] Linking C executable ../bin/vbasic_call
+[ 68%] Built target vbasic_call
+Scanning dependencies of target vprefix_test
+[ 70%] Building C object vtests/CMakeFiles/vprefix_test.dir/prefix_test.c.o
+[ 72%] Linking C executable ../bin/vprefix_test
+[ 72%] Built target vprefix_test
+[ 74%] Generating general.c
+Scanning dependencies of target vgeneral
+[ 76%] Building C object vtests/CMakeFiles/vgeneral.dir/general.c.o
+[ 78%] Linking C executable ../bin/vgeneral
+[ 78%] Built target vgeneral
+Scanning dependencies of target vbranch
+[ 80%] Building C object vtests/CMakeFiles/vbranch.dir/branch.c.o
+[ 82%] Linking C executable ../bin/vbranch
+[ 82%] Built target vbranch
+Scanning dependencies of target vt1
+[ 85%] Building C object vtests/CMakeFiles/vt1.dir/t1.c.o
+[ 87%] Linking C executable ../bin/vt1
+[ 87%] Built target vt1
+Scanning dependencies of target vpkg_test
+[ 89%] Building C object vtests/CMakeFiles/vpkg_test.dir/pkg_test.c.o
+[ 91%] Linking C executable ../bin/vpkg_test
+[ 91%] Built target vpkg_test
+Scanning dependencies of target vopt
+[ 93%] Building C object vtests/CMakeFiles/vopt.dir/opt.c.o
+[ 95%] Linking C executable ../bin/vopt
+[ 95%] Built target vopt
+Scanning dependencies of target vmulti_test
+[ 97%] Building C object vtests/CMakeFiles/vmulti_test.dir/multi_test.c.o
+[100%] Linking C executable ../bin/vmulti_test
+[100%] Built target vmulti_test
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/pkgconfig/dill.pc
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/dill-config
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/dill.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libdill.a
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/dill/dill-config.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/dill/dill-config-version.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/dill/dill-targets.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/dill/dill-targets-debug.cmake

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source/cod/cod.h
+
+/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source/ffs/progs/FFSsort.c
+config.h
+/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source/ffs/progs/config.h
+fcntl.h
+-
+string.h
+-
+assert.h
+-
+malloc.h
+-
+stdlib.h
+-
+stdio.h
+-
+ctype.h
+-
+ffs.h
+/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source/ffs/progs/ffs.h
+cod.h
+/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source/ffs/progs/cod.h
+
+/blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/source/fm/fm.h
+
+/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/atl.h
+
+config.h
+
+ffs/ffs.h
+fm.h
+ffs/fm.h
+atl.h
+ffs/atl.h
+

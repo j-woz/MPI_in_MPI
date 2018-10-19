@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/vmulti_test.dir/multi_test.c.o  -o ../bin/vmulti_test ../lib/libdill.a 

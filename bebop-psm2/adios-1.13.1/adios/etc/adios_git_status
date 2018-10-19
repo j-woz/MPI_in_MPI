@@ -1,0 +1,8 @@
+GITLOG=""
+read -d '' GITSTAT <<'_EOF_'
+# On branch master
+#
+# Initial commit
+#
+nothing to commit (create/copy files and use "git add" to track)
+_EOF_

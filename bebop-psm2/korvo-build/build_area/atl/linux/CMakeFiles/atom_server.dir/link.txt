@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/atom_server.dir/atom_server.c.o  -o bin/atom_server lib/libatl.a 

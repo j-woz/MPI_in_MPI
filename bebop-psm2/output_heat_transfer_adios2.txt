@@ -1,0 +1,16 @@
+ Process number        : 4 x 3
+ Array size per process at first step: 40 x 50
+Step    1:
+Writing:  filename               size(GB)    io_time(sec)      GB/s
+Step   1: heat.bp                   0.0000         0.059         0.000
+Step    2:
+Step   2: heat.bp                   0.0000         0.000         0.000
+Step    3:
+Step   3: heat.bp                   0.0000         0.000         0.000
+Step    4:
+Step   4: heat.bp                   0.0000         0.000         0.000
+Step    5:
+Step   5: heat.bp                   0.0000         0.114         0.000
+Step    6:
+Step   6: heat.bp                   0.0000         0.002         0.000
+Rank 0 total runtime =        0.387s

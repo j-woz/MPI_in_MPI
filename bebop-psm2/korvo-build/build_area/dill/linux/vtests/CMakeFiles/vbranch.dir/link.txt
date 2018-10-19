@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/vbranch.dir/branch.c.o  -o ../bin/vbranch ../lib/libdill.a 

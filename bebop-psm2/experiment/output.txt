@@ -1,0 +1,44 @@
+Hello
+Hello
+hostname:  bdwd-0016
+rank/size: 0/2
+hostname:  bdwd-0016
+rank/size: 1/2
+script1.sh (PMI_RANK = 0)
+script1.sh (PMI_RANK = 1)
+script2.sh (PMI_RANK = 0)
+script2.sh (PMI_RANK = 1)
+Bye.
+Bye.
+Hello
+Hello
+hostname:  bdwd-0016
+rank/size: 0/2
+hostname:  bdwd-0016
+rank/size: 1/2
+Hello
+Hello
+Hello
+Hello
+hostname:  bdwd-0016
+rank/size: 0/2
+hostname:  bdwd-0016
+rank/size: 1/2
+Bye.
+Bye.
+hostname:  bdwd-0016
+rank/size: 0/2
+hostname:  bdwd-0016
+rank/size: 1/2
+Bye.
+Bye.
+Bye.
+Bye.
+Hello
+Hello
+hostname:  bdwd-0016
+rank/size: 0/2
+hostname:  bdwd-0016
+rank/size: 1/2
+Bye.
+Bye.

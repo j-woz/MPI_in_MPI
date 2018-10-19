@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/attr_test.dir/attr_test.c.o  -o bin/attr_test lib/libatl.a 

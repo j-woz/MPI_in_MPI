@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/atom_test.dir/atom_test.c.o  -o bin/atom_test lib/libatl.a 

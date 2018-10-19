@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -rdynamic CMakeFiles/cplus.dir/cplus.cc.o  -o ../bin/cplus ../lib/libdill.a 

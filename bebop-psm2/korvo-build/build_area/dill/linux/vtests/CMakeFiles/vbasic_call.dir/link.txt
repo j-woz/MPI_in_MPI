@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/vbasic_call.dir/basic_call.c.o  -o ../bin/vbasic_call ../lib/libdill.a 

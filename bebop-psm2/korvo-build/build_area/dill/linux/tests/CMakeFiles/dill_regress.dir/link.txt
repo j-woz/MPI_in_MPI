@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/dill_regress.dir/regress.c.o  -o ../bin/dill_regress ../lib/libdill.a -lm 

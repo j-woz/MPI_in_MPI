@@ -1,0 +1,5 @@
+mtests_cmtest
+mtests_cmping
+mtests_cmconn
+mtests_bulktest
+mtests_take_test

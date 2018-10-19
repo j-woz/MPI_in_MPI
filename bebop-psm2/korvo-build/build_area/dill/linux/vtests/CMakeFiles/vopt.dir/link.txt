@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/vopt.dir/opt.c.o  -o ../bin/vopt ../lib/libdill.a 

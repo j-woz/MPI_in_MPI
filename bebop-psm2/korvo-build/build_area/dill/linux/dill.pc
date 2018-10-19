@@ -1,0 +1,11 @@
+prefix=/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Dill
+Description: Instruction-level in-memory code generation
+URL: https://github.com/GTkorvo/dill.git
+Version: 2.4.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -ldill
+Libs.private: 

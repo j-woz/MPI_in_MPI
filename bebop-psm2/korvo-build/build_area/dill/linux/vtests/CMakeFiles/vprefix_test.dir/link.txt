@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -rdynamic CMakeFiles/vprefix_test.dir/prefix_test.c.o  -o ../bin/vprefix_test ../lib/libdill.a 

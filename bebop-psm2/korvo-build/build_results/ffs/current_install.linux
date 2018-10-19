@@ -1,0 +1,365 @@
+
+Building project ffs on bdw-0063, arch = linux
+
+-- The C compiler identification is GNU 4.8.5
+-- The CXX compiler identification is GNU 4.8.5
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of double
+-- Check size of double - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Looking for socket
+-- Looking for socket - found
+-- Found BISON: /usr/bin/bison (found version "3.0.4") 
+-- Found FLEX: /usr/bin/flex (found version "2.5.37") 
+-- Found dill: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/dill/dill-config.cmake (found suitable version "2.4.0", minimum required is "2.3.1") 
+-- Found atl: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/atl/atl-config.cmake (found suitable version "2.2.1", minimum required is "2.2.1") 
+-- Looking for malloc.h
+-- Looking for malloc.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for netdb.h
+-- Looking for netdb.h - found
+-- Looking for sockLib.h
+-- Looking for sockLib.h - not found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for sys/select.h
+-- Looking for sys/select.h - found
+-- Looking for sys/socket.h
+-- Looking for sys/socket.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/times.h
+-- Looking for sys/times.h - found
+-- Looking for sys/uio.h
+-- Looking for sys/uio.h - found
+-- Looking for sys/un.h
+-- Looking for sys/un.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for windows.h
+-- Looking for windows.h - not found
+-- Looking for winsock.h
+-- Looking for winsock.h - not found
+-- Looking for strtof
+-- Looking for strtof - found
+-- Looking for strtod
+-- Looking for strtod - found
+-- Looking for strtold
+-- Looking for strtold - found
+-- Looking for getdomainname
+-- Looking for getdomainname - found
+-- Check size of struct iovec
+-- Check size of struct iovec - done
+-- Performing Test HAS_IOV_BASE_IOVEC
+-- Performing Test HAS_IOV_BASE_IOVEC - Success
+-- 
+-- -----------------------------------------------------------------------------
+-- CMAKE_INSTALL_PREFIX = /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo
+-- CMAKE_BUILD_TYPE = Debug
+-- FFS_USE_DILL = ON
+-- FFS_USE_ATL = ON
+-- FFS_LIBRARIES_ONLY = OFF
+-- Change a value with: cmake -D<Variable>=<Value>
+-- -----------------------------------------------------------------------------
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PKG_CONFIG_EXECUTABLE
+    TARGET_CNL
+
+
+-- Build files have been written to: /blues/gpfs/home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/build_area/ffs/linux
+[  1%] [FLEX][CODScanner] Building scanner with flex 2.5.37
+[  1%] [BISON][CODParser] Building parser with bison 3.0.4
+[  2%] Generating cod_node.c, structs.h
+Done
+Scanning dependencies of target ffs
+[  2%] Building C object CMakeFiles/ffs.dir/ffs/ffs.c.o
+[  3%] Building C object CMakeFiles/ffs.dir/ffs/ffs_formats.c.o
+[  4%] Building C object CMakeFiles/ffs.dir/ffs/ffs_conv.c.o
+[  4%] Building C object CMakeFiles/ffs.dir/ffs/ffs_gen.c.o
+[  5%] Building C object CMakeFiles/ffs.dir/ffs/ffs_file.c.o
+[  6%] Building C object CMakeFiles/ffs.dir/ffs/unix_io.c.o
+[  6%] Building C object CMakeFiles/ffs.dir/ffs/evol.c.o
+[  7%] Building C object CMakeFiles/ffs.dir/ffs/ffs_marshal.c.o
+[  8%] Building C object CMakeFiles/ffs.dir/version.c.o
+[  8%] Building C object CMakeFiles/ffs.dir/fm/fm_formats.c.o
+[  9%] Building C object CMakeFiles/ffs.dir/fm/fm_dump.c.o
+[ 10%] Building C object CMakeFiles/ffs.dir/fm/lookup3.c.o
+[ 11%] Building C object CMakeFiles/ffs.dir/fm/string_conversion.c.o
+[ 11%] Building C object CMakeFiles/ffs.dir/fm/fm_get.c.o
+[ 12%] Building C object CMakeFiles/ffs.dir/fm/xml.c.o
+[ 13%] Building C object CMakeFiles/ffs.dir/fm/server_acts.c.o
+[ 13%] Building C object CMakeFiles/ffs.dir/fm/unix_io.c.o
+[ 14%] Building C object CMakeFiles/ffs.dir/cod/cg.c.o
+[ 15%] Building C object CMakeFiles/ffs.dir/cod/standard.c.o
+[ 15%] Building C object CMakeFiles/ffs.dir/cod.tab.c.o
+[ 16%] Building C object CMakeFiles/ffs.dir/cod_node.c.o
+[ 17%] Linking C static library lib/libffs.a
+[ 17%] Built target ffs
+Scanning dependencies of target docs
+[ 19%] Built target docs
+Scanning dependencies of target format_server
+[ 20%] Building C object fm/progs/CMakeFiles/format_server.dir/format_server.c.o
+[ 20%] Building C object fm/progs/CMakeFiles/format_server.dir/server.c.o
+[ 21%] Linking C executable ../../bin/format_server
+[ 21%] Built target format_server
+Scanning dependencies of target format_dump
+[ 22%] Building C object fm/progs/CMakeFiles/format_dump.dir/format_dump.c.o
+[ 23%] Linking C executable ../../bin/format_dump
+[ 23%] Built target format_dump
+Scanning dependencies of target format_cmd
+[ 24%] Building C object fm/progs/CMakeFiles/format_cmd.dir/format_cmd.c.o
+[ 24%] Linking C executable ../../bin/format_cmd
+[ 24%] Built target format_cmd
+Scanning dependencies of target format_info
+[ 24%] Building C object fm/progs/CMakeFiles/format_info.dir/format_info.c.o
+[ 25%] Linking C executable ../../bin/format_info
+[ 25%] Built target format_info
+Scanning dependencies of target align_test
+[ 25%] Building C object fm/tests/CMakeFiles/align_test.dir/align_test.c.o
+[ 26%] Building C object fm/tests/CMakeFiles/align_test.dir/test_funcs.c.o
+[ 27%] Linking C executable ../../bin/align_test
+[ 27%] Built target align_test
+Scanning dependencies of target compat_test
+[ 27%] Building C object fm/tests/CMakeFiles/compat_test.dir/compat_test.c.o
+[ 28%] Building C object fm/tests/CMakeFiles/compat_test.dir/test_funcs.c.o
+[ 29%] Linking C executable ../../bin/compat_test
+[ 29%] Built target compat_test
+Scanning dependencies of target format_test
+[ 30%] Building C object fm/tests/CMakeFiles/format_test.dir/format_test.c.o
+[ 31%] Building C object fm/tests/CMakeFiles/format_test.dir/test_funcs.c.o
+[ 31%] Linking C executable ../../bin/format_test
+[ 31%] Built target format_test
+Scanning dependencies of target self_format_test
+[ 32%] Building C object fm/tests/CMakeFiles/self_format_test.dir/self_format_test.c.o
+[ 32%] Building C object fm/tests/CMakeFiles/self_format_test.dir/test_funcs.c.o
+[ 33%] Linking C executable ../../bin/self_format_test
+[ 33%] Built target self_format_test
+Scanning dependencies of target t3
+[ 33%] Building C object cod/tests/CMakeFiles/t3.dir/t3.c.o
+[ 34%] Building C object cod/tests/CMakeFiles/t3.dir/data_funcs.c.o
+[ 35%] Linking C executable ../../bin/t3
+[ 35%] Built target t3
+Scanning dependencies of target t12
+[ 36%] Building C object cod/tests/CMakeFiles/t12.dir/t12.c.o
+[ 37%] Building C object cod/tests/CMakeFiles/t12.dir/data_funcs.c.o
+[ 38%] Linking C executable ../../bin/t12
+[ 38%] Built target t12
+Scanning dependencies of target t7
+[ 39%] Building C object cod/tests/CMakeFiles/t7.dir/t7.c.o
+[ 39%] Linking C executable ../../bin/t7
+[ 39%] Built target t7
+Scanning dependencies of target t8
+[ 40%] Building C object cod/tests/CMakeFiles/t8.dir/t8.c.o
+[ 41%] Building C object cod/tests/CMakeFiles/t8.dir/data_funcs.c.o
+[ 41%] Linking C executable ../../bin/t8
+[ 41%] Built target t8
+Scanning dependencies of target t6
+[ 41%] Building C object cod/tests/CMakeFiles/t6.dir/t6.c.o
+[ 42%] Building C object cod/tests/CMakeFiles/t6.dir/data_funcs.c.o
+[ 43%] Linking C executable ../../bin/t6
+[ 43%] Built target t6
+Scanning dependencies of target control
+[ 44%] Building C object cod/tests/CMakeFiles/control.dir/control.c.o
+[ 44%] Building C object cod/tests/CMakeFiles/control.dir/data_funcs.c.o
+[ 45%] Linking C executable ../../bin/control
+[ 45%] Built target control
+Scanning dependencies of target t4
+[ 45%] Building C object cod/tests/CMakeFiles/t4.dir/t4.c.o
+[ 46%] Building C object cod/tests/CMakeFiles/t4.dir/data_funcs.c.o
+[ 47%] Linking C executable ../../bin/t4
+[ 47%] Built target t4
+Scanning dependencies of target t9
+[ 48%] Building C object cod/tests/CMakeFiles/t9.dir/t9.c.o
+[ 50%] Building C object cod/tests/CMakeFiles/t9.dir/data_funcs.c.o
+[ 50%] Linking C executable ../../bin/t9
+[ 50%] Built target t9
+Scanning dependencies of target t5
+[ 50%] Building C object cod/tests/CMakeFiles/t5.dir/t5.c.o
+[ 51%] Building C object cod/tests/CMakeFiles/t5.dir/data_funcs.c.o
+[ 52%] Linking C executable ../../bin/t5
+[ 52%] Built target t5
+Scanning dependencies of target t1
+[ 53%] Building C object cod/tests/CMakeFiles/t1.dir/t1.c.o
+[ 54%] Building C object cod/tests/CMakeFiles/t1.dir/data_funcs.c.o
+[ 54%] Linking C executable ../../bin/t1
+[ 54%] Built target t1
+Scanning dependencies of target gray
+[ 55%] Building C object cod/tests/CMakeFiles/gray.dir/gray.c.o
+[ 56%] Building C object cod/tests/CMakeFiles/gray.dir/data_funcs.c.o
+[ 56%] Linking C executable ../../bin/gray
+[ 56%] Built target gray
+[ 57%] Generating general.c
+Scanning dependencies of target general
+[ 58%] Building C object cod/tests/CMakeFiles/general.dir/general.c.o
+[ 58%] Building C object cod/tests/CMakeFiles/general.dir/data_funcs.c.o
+[ 59%] Linking C executable ../../bin/general
+[ 59%] Built target general
+Scanning dependencies of target atl_test
+[ 59%] Building C object cod/tests/CMakeFiles/atl_test.dir/atl_test.c.o
+[ 60%] Building C object cod/tests/CMakeFiles/atl_test.dir/data_funcs.c.o
+[ 61%] Linking C executable ../../bin/atl_test
+[ 61%] Built target atl_test
+Scanning dependencies of target strings
+[ 62%] Building C object cod/tests/CMakeFiles/strings.dir/strings.c.o
+[ 63%] Building C object cod/tests/CMakeFiles/strings.dir/data_funcs.c.o
+[ 63%] Linking C executable ../../bin/strings
+[ 63%] Built target strings
+Scanning dependencies of target structs
+[ 64%] Building C object cod/tests/CMakeFiles/structs.dir/structs.c.o
+[ 65%] Building C object cod/tests/CMakeFiles/structs.dir/data_funcs.c.o
+[ 65%] Linking C executable ../../bin/structs
+[ 65%] Built target structs
+Scanning dependencies of target time
+[ 66%] Building C object cod/tests/CMakeFiles/time.dir/time.c.o
+[ 67%] Building C object cod/tests/CMakeFiles/time.dir/data_funcs.c.o
+[ 68%] Linking C executable ../../bin/time
+[ 68%] Built target time
+Scanning dependencies of target t10
+[ 69%] Building C object cod/tests/CMakeFiles/t10.dir/t10.c.o
+[ 70%] Building C object cod/tests/CMakeFiles/t10.dir/data_funcs.c.o
+[ 70%] Linking C executable ../../bin/t10
+[ 70%] Built target t10
+Scanning dependencies of target compound_assignment
+[ 71%] Building C object cod/tests/CMakeFiles/compound_assignment.dir/compound_assignment.c.o
+[ 71%] Building C object cod/tests/CMakeFiles/compound_assignment.dir/data_funcs.c.o
+[ 72%] Linking C executable ../../bin/compound_assignment
+[ 72%] Built target compound_assignment
+Scanning dependencies of target t2
+[ 72%] Building C object cod/tests/CMakeFiles/t2.dir/t2.c.o
+[ 73%] Building C object cod/tests/CMakeFiles/t2.dir/data_funcs.c.o
+[ 74%] Linking C executable ../../bin/t2
+[ 74%] Built target t2
+Scanning dependencies of target FFSsort
+[ 75%] Building C object ffs/progs/CMakeFiles/FFSsort.dir/FFSsort.c.o
+[ 76%] Linking C executable ../../bin/FFSsort
+[ 76%] Built target FFSsort
+Scanning dependencies of target FFScp
+[ 76%] Building C object ffs/progs/CMakeFiles/FFScp.dir/FFScp.c.o
+[ 77%] Linking C executable ../../bin/FFScp
+[ 77%] Built target FFScp
+Scanning dependencies of target FFSdump
+[ 78%] Building C object ffs/progs/CMakeFiles/FFSdump.dir/FFSdump.c.o
+[ 78%] Linking C executable ../../bin/FFSdump
+[ 78%] Built target FFSdump
+Scanning dependencies of target test_file_unique
+[ 79%] Building C object ffs/tests/CMakeFiles/test_file_unique.dir/test_file_unique.c.o
+[ 80%] Building C object ffs/tests/CMakeFiles/test_file_unique.dir/test_funcs.c.o
+[ 80%] Linking C executable ../../bin/test_file_unique
+[ 80%] Built target test_file_unique
+Scanning dependencies of target context_test
+[ 81%] Building C object ffs/tests/CMakeFiles/context_test.dir/context_test.c.o
+[ 81%] Building C object ffs/tests/CMakeFiles/context_test.dir/test_funcs.c.o
+[ 82%] Linking C executable ../../bin/context_test
+[ 82%] Built target context_test
+Scanning dependencies of target get_set_test
+[ 83%] Building C object ffs/tests/CMakeFiles/get_set_test.dir/get_set_test.c.o
+[ 84%] Building C object ffs/tests/CMakeFiles/get_set_test.dir/test_funcs.c.o
+[ 84%] Linking C executable ../../bin/get_set_test
+[ 84%] Built target get_set_test
+Scanning dependencies of target ffs_index_test
+[ 85%] Building C object ffs/tests/CMakeFiles/ffs_index_test.dir/ffs_index_test.c.o
+[ 85%] Building C object ffs/tests/CMakeFiles/ffs_index_test.dir/test_funcs.c.o
+[ 86%] Linking C executable ../../bin/ffs_index_test
+[ 86%] Built target ffs_index_test
+Scanning dependencies of target fortran_test
+[ 87%] Building C object ffs/tests/CMakeFiles/fortran_test.dir/fortran_test.c.o
+[ 88%] Building C object ffs/tests/CMakeFiles/fortran_test.dir/test_funcs.c.o
+[ 88%] Linking C executable ../../bin/fortran_test
+[ 88%] Built target fortran_test
+Scanning dependencies of target ffs_write
+[ 89%] Building C object ffs/tests/CMakeFiles/ffs_write.dir/ffs_write.c.o
+[ 89%] Building C object ffs/tests/CMakeFiles/ffs_write.dir/test_funcs.c.o
+[ 90%] Linking C executable ../../bin/ffs_write
+[ 90%] Built target ffs_write
+Scanning dependencies of target no_leaf_test
+[ 91%] Building C object ffs/tests/CMakeFiles/no_leaf_test.dir/no_leaf_test.c.o
+[ 91%] Building C object ffs/tests/CMakeFiles/no_leaf_test.dir/test_funcs.c.o
+[ 92%] Linking C executable ../../bin/no_leaf_test
+[ 92%] Built target no_leaf_test
+Scanning dependencies of target marshal_test
+[ 93%] Building C object ffs/tests/CMakeFiles/marshal_test.dir/marshal_test.c.o
+[ 94%] Linking C executable ../../bin/marshal_test
+[ 94%] Built target marshal_test
+Scanning dependencies of target marshal_test2
+[ 94%] Building C object ffs/tests/CMakeFiles/marshal_test2.dir/marshal_test2.c.o
+[ 95%] Linking C executable ../../bin/marshal_test2
+[ 95%] Built target marshal_test2
+Scanning dependencies of target context_test2
+[ 96%] Building C object ffs/tests/CMakeFiles/context_test2.dir/context_test2.c.o
+[ 96%] Building C object ffs/tests/CMakeFiles/context_test2.dir/test_funcs.c.o
+[ 97%] Linking C executable ../../bin/context_test2
+[ 97%] Built target context_test2
+Scanning dependencies of target ffs_file_test
+[ 97%] Building C object ffs/tests/CMakeFiles/ffs_file_test.dir/ffs_file_test.c.o
+[ 98%] Building C object ffs/tests/CMakeFiles/ffs_file_test.dir/test_funcs.c.o
+[100%] Linking C executable ../../bin/ffs_file_test
+[100%] Built target ffs_file_test
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/pkgconfig/ffs.pc
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/ffs-config
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/fm.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/cod.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/include/ffs.h
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/libffs.a
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/ffs/ffs-config.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/ffs/ffs-config-version.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/ffs/ffs-targets.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/lib/cmake/ffs/ffs-targets-debug.cmake
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/format_dump
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/format_cmd
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/format_info
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/format_server
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/format_test
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/self_format_test
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/FFSdump
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/FFScp
+-- Installing: /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/korvo-build/korvo/bin/FFSsort

@@ -1,0 +1,7 @@
+CC = mpicc
+CFLAGS = -g -O2
+FC = mpif90
+FCFLAGS = -g -O2
+FCLIBS =  -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-4bgguypumyezlt6vfhha3ukntrlrx7fq/lib64/../lib64 -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-4bgguypumyezlt6vfhha3ukntrlrx7fq/lib/../lib64 -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-4bgguypumyezlt6vfhha3ukntrlrx7fq/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-4bgguypumyezlt6vfhha3ukntrlrx7fq/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-4bgguypumyezlt6vfhha3ukntrlrx7fq/lib64 -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-4bgguypumyezlt6vfhha3ukntrlrx7fq/lib -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/intel-17.0.4-74uvhjiulyqgvsmywifbbuo46v5n42xc/tbb/lib/intel64/gcc4.4 -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/intel-17.0.4-74uvhjiulyqgvsmywifbbuo46v5n42xc/lib/intel64 -L/blues/gpfs/home/software/spack-0.10.1/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gcc-7.1.0-4bgguypumyezlt6vfhha3ukntrlrx7fq/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. -lgfortran -lm -lquadmath -lpthread
+LDFLAGS = 
+prefix = /home/tshu/project/bebop/MPI_in_MPI/bebop-psm2/adios-1.13.1/adios
